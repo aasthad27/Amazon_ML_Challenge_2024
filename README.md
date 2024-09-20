@@ -1,0 +1,6 @@
+## Problem Statement 
+The task was to build a machine learning model that could extract entity values from images, such as weight, volume, and dimensions—crucial data points in e-commerce, healthcare, and digital marketplaces. We had a dataset of 132,000 images and worked on extracting detailed product information directly from these images, a vital feature as many products lack textual descriptions. Due to the constraints of Google Colab's free tier (T4 GPU and 3-hour 20-minute time limits), we broke the task into chunks, optimizing for batch processing, multi-threading, and multiprocessing to handle the large dataset efficiently.
+
+Though we didn’t make it to the top 50, we gained invaluable hands-on experience in working with limited resources and scaling ML tasks. Some of the key learnings included optimizing image text extraction using EasyOCR, using regex for structured entity identification, and building robust workflows even without access to high-powered GPUs or fine-tuned LLMs. This challenge pushed us to think critically about resource optimization, batch processing, and parallelization. It was a fantastic learning journey.
+
+[AMAZON_ML_CHALLENGE[1].pptx](https://github.com/user-attachments/files/17079164/AMAZON_ML_CHALLENGE.1.pptx)
